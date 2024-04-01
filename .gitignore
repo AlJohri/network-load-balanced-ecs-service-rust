@@ -6,3 +6,8 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Usually you should commit this, but don't want to save aws account details
+# for a public demo repository
+cdk.context.json
+
